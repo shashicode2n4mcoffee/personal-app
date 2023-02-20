@@ -69,6 +69,27 @@ export default function About() {
               innovative and constantly challenging my skills.
               <hr />
             </p>
+            <p className='gray'>
+              As a highly skilled developer with extensive experience in
+              building web applications and microservices, I have a strong
+              command of a wide range of technologies, including Node.js, Spring
+              Boot, Java, PostgreSQL, Oracle, Express, Sequelize, Knex,
+              Hibernate, GCP, AWS, ReactJS, Redux, Angular, HTML, and CSS.
+              <br />
+              With my proficiency in cloud computing platforms like GCP and AWS,
+              I can design and deploy applications that are highly available and
+              scalable. I am also adept at working with a variety of database
+              management systems, including PostgreSQL and Oracle, and can
+              design and implement efficient database schemas.
+              <br />
+              Furthermore, I have extensive experience working with frontend
+              technologies like ReactJS, Redux, Angular, HTML, and CSS to build
+              intuitive and responsive user interfaces. I possess excellent
+              problem-solving skills and am constantly seeking new challenges to
+              improve my skills and stay current with the latest technological
+              developments.
+              <hr />
+            </p>
             <div>
               <h3 className='white' style={{ paddingTop: '1rem' }}>
                 Education
