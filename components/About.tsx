@@ -48,11 +48,7 @@ export default function About() {
               title='Cloud Technologies'
               icon='/icons/code.svg'
               description='I develop cross-platform mobile applications.'
-              images={[
-                'google-cloud-1.svg',
-                'aws-2.svg',
-                'azure.svg'
-              ]}
+              images={['google-cloud-1.svg', 'aws-2.svg', 'azure.svg']}
             />
           </div>
 
@@ -71,7 +67,33 @@ export default function About() {
               <br />
               <br />I am naturally persevered, self-confident, quietly curios,
               innovative and constantly challenging my skills.
+              <hr />
             </p>
+            <div>
+              <h3 className='white' style={{ paddingTop: '1rem' }}>
+                Education
+              </h3>
+              <p className='gray'>
+                <hr />
+                National Institute of Technology Karnataka
+                <br />
+                <br />
+                Branch : Electrical and ELectronics Engineering.
+                <hr style={{ border: '1px dashed white' }} />
+              </p>
+              <p className='gray'>
+                Alvas Pre-university College : 97.33%
+                <br />
+                <br />
+                Physics, Chemistry, Mathematics, Computer Science : 99.5%
+                <hr style={{ border: '1px dashed white' }} />
+              </p>
+              <p className='gray'>
+                S G Shintri English Medium School : 96.80%
+                <br />
+                <hr style={{ border: '1px dashed white' }} />
+              </p>
+            </div>
           </div>
         </div>
         <div className='flex partners justify-space'>
