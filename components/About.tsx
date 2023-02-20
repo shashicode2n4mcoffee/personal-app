@@ -91,7 +91,6 @@ export default function About() {
               <p className='gray'>
                 S G Shintri English Medium School : 96.80%
                 <br />
-                <hr style={{ border: '1px dashed white' }} />
               </p>
             </div>
           </div>
