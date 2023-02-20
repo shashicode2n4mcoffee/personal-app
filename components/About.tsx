@@ -7,20 +7,15 @@ export default function About() {
             <div className="flex">
                 <div className="flex-full">
                     <AboutCard
-                        title="UX/UI Design"
-                        icon="/icons/design.svg"
-                        description="I create design  products with unique ideas."
-                        projects={7} />
-                    <AboutCard
                         title="Web Design"
                         icon="/icons/code.svg"
                         description="I develop Full stack applications with coding super smooth."
-                        projects={10} />
+                         />
                     <AboutCard
                         title="Mobile"
                         icon="/icons/phone.svg"
                         description="I develop cross-platform mobile applications."
-                        projects={7} />
+                         />
                 </div>
                 
                 <div className="flex-full about-text">
@@ -47,10 +42,9 @@ type Props = {
     title: string,
     icon: string | StaticImageData,
     description: string,
-    projects: number
 }
 
-function AboutCard ({title, icon, description, projects} : Props) {
+function AboutCard ({title, icon, description} : Props) {
     return(
         <div className="light-bg about-card">
             <div className="flex justify-space">
@@ -58,7 +52,6 @@ function AboutCard ({title, icon, description, projects} : Props) {
                 <Image src={icon} width={28} height={28} alt={title} />
             </div>
             <p className="white">{description}</p>
-            <span className="gray">{projects.toString()} projects</span>
         </div>
     )
 }
