@@ -56,8 +56,7 @@ export default function About() {
             <h5 className='gray'>Introduce</h5>
             <h1 className='white'>Hello, I&#39;m Shashikumar</h1>
             <h3 className='white'>
-              Applications is not just what it looks like. Applications is how
-              it works!
+              It is possible to fly without motors, but not without knowledge and skill.
             </h3>
             <p className='gray'>
               I have proceeded my dream to be a developer as it has been my
