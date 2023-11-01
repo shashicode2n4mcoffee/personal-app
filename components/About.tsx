@@ -58,7 +58,37 @@ export default function About() {
             <h3 className='white'>
               It is possible to fly without motors, but not without knowledge and skill.
             </h3>
+              <div>
+              <h3 className='white' style={{ paddingTop: '1rem' }}>
+                Education
+              </h3>
+              <p className='gray'>
+                <hr />
+                National Institute of Technology Karnataka
+                <br />
+                <br />
+                Branch : Electrical and ELectronics Engineering.
+                <hr style={{ border: '1px dashed white' }} />
+              </p>
+              <p className='gray'>
+                Alvas Pre-university College : 97.33%
+                <br />
+                <br />
+                Physics, Chemistry, Mathematics, Computer Science : 99.5%
+                <br />
+                Karnatak CET State Rank: 632 
+                COMEDK State Rank : 342
+                <hr style={{ border: '1px dashed white' }} />
+              </p>
+              <p className='gray'>
+                S G Shintri English Medium School : 96.80%
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
             <p className='gray'>
+              <hr />
               I have proceeded my dream to be a developer as it has been my
               lifelong ambition. I am a talented Full Stack developer. During my
               4 years of work in multiple top companies, I had the opportunity
@@ -88,37 +118,8 @@ export default function About() {
               problem-solving skills and am constantly seeking new challenges to
               improve my skills and stay current with the latest technological
               developments.
-              <hr />
             </p>
-            <div>
-              <h3 className='white' style={{ paddingTop: '1rem' }}>
-                Education
-              </h3>
-              <p className='gray'>
-                <hr />
-                National Institute of Technology Karnataka
-                <br />
-                <br />
-                Branch : Electrical and ELectronics Engineering.
-                <hr style={{ border: '1px dashed white' }} />
-              </p>
-              <p className='gray'>
-                Alvas Pre-university College : 97.33%
-                <br />
-                <br />
-                Physics, Chemistry, Mathematics, Computer Science : 99.5%
-                <br />
-                Karnatak CET State Rank: 632 
-                COMEDK State Rank : 342
-                <hr style={{ border: '1px dashed white' }} />
-              </p>
-              <p className='gray'>
-                S G Shintri English Medium School : 96.80%
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
+            
         <div className='flex partners justify-space'>
           <Image
             src='/images/partners/wipro1.svg'
