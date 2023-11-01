@@ -107,6 +107,9 @@ export default function About() {
                 <br />
                 <br />
                 Physics, Chemistry, Mathematics, Computer Science : 99.5%
+                <br />
+                Karnatak CET State Rank: 632 
+                COMEDK State Rank : 342
                 <hr style={{ border: '1px dashed white' }} />
               </p>
               <p className='gray'>
