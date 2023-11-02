@@ -97,7 +97,7 @@ export default function About() {
               <p style={{ textAlign: 'left' }}>
                 I have proceeded my dream to be a developer as it has been my
                 lifelong ambition. I am a talented Full Stack developer. During
-                my 4 years of work in multiple top companies, I had the
+                my 5 years of work in multiple top companies, I had the
                 opportunity to enhance my expertise by collaborating with
                 different clients and by creating useful content for both
                 business and customer use.
