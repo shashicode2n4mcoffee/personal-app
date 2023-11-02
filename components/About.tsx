@@ -64,19 +64,26 @@ export default function About() {
             </h3>
             <p className='gray'>
               <hr />
-              National Institute of Technology Karnataka
+              <p style={{ textAlign: 'left' }}>
+                National Institute of Technology Karnataka
+              </p>
               <br />
-              <br />
-              Branch : Electrical and ELectronics Engineering.
+              <p style={{ textAlign: 'left' }}>
+                Branch : Electrical and Electronics Engineering.
+              </p>
               <hr style={{ border: '1px dashed white' }} />
             </p>
             <p className='gray'>
               Alvas Pre-university College : 97.33%
               <br />
               <br />
-              Physics, Chemistry, Mathematics, Computer Science : 99.5%
+              <p style={{ textAlign: 'left' }}>
+                Physics, Chemistry, Mathematics, Computer Science : 99.5%
+              </p>
               <br />
-              Karnatak CET State Rank: 632 COMEDK State Rank : 342
+              <p style={{ textAlign: 'left' }}>
+                Karnatak CET State Rank: 632 COMEDK State Rank : 342
+              </p>
               <hr style={{ border: '1px dashed white' }} />
             </p>
             <p className='gray'>
@@ -87,17 +94,23 @@ export default function About() {
           <div>
             <p className='gray'>
               <hr />
-              I have proceeded my dream to be a developer as it has been my
-              lifelong ambition. I am a talented Full Stack developer. During my
-              4 years of work in multiple top companies, I had the opportunity
-              to enhance my expertise by collaborating with different clients
-              and by creating useful content for both business and customer use.
+              <p style={{ textAlign: 'left' }}>
+                I have proceeded my dream to be a developer as it has been my
+                lifelong ambition. I am a talented Full Stack developer. During
+                my 4 years of work in multiple top companies, I had the
+                opportunity to enhance my expertise by collaborating with
+                different clients and by creating useful content for both
+                business and customer use.
+              </p>
               <br />
-              <br />I am naturally persevered, self-confident, quietly curios,
-              innovative and constantly challenging my skills.
+              <p style={{ textAlign: 'left' }}>
+                I am naturally persevered, self-confident, quietly curios,
+                innovative and constantly challenging my skills.
+              </p>
+
               <hr />
             </p>
-            <p className='gray'>
+            <p className='gray' style={{ textAlign: 'left' }}>
               As a highly skilled developer with extensive experience in
               building web applications and microservices, I have a strong
               command of a wide range of technologies, including Node.js, Spring
