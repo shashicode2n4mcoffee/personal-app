@@ -251,7 +251,7 @@ export default function About() {
               execution. Whether I am building a full-stack web application or
               optimizing a C++ pricing engine, I bring a unique blend of
               technical expertise and financial acumen that drives both
-              performance and profitability. Let's connect to explore how my
+              performance and profitability. Let us connect to explore how my
               skills can elevate your trading and technology strategies.
               <hr style={{ border: '.5px dashed white' }} />
             </p>
