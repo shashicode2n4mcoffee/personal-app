@@ -168,7 +168,7 @@ export default function About() {
                 I have pursued my dream of becoming both a Quantitative
                 Developer and a Full Stack Developer, a lifelong ambition that
                 continues to drive my passion for technology and finance. Over
-                the past six years, I've had the privilege of working with top
+                the past six years, I have had the privilege of working with top
                 companies, enhancing my expertise through collaboration with
                 diverse clients, and creating impactful solutions that serve
                 both business and customer needs. My journey has allowed me to
@@ -248,7 +248,7 @@ export default function About() {
               <hr style={{ border: '.5px dashed white' }} />
               My passion lies in pushing the boundaries of trading technology by
               combining cutting-edge financial models with low-latency
-              execution. Whether I’m building a full-stack web application or
+              execution. Whether I am building a full-stack web application or
               optimizing a C++ pricing engine, I bring a unique blend of
               technical expertise and financial acumen that drives both
               performance and profitability. Let's connect to explore how my
