@@ -246,14 +246,14 @@ export default function About() {
               compromising on performance.
               <br />
               <hr style={{ border: '.5px dashed white' }} />
-              My passion lies in pushing the boundaries of trading technology by
+              {/* My passion lies in pushing the boundaries of trading technology by
               combining cutting-edge financial models with low-latency
               execution. Whether I am building a full-stack web application or
               optimizing a C++ pricing engine, I bring a unique blend of
               technical expertise and financial acumen that drives both
               performance and profitability. Let us connect to explore how my
               skills can elevate your trading and technology strategies.
-              <hr style={{ border: '.5px dashed white' }} />
+              <hr style={{ border: '.5px dashed white' }} /> */}
             </p>
           </div>
         </div>
