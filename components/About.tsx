@@ -279,14 +279,14 @@ export default function About() {
           alt='khedma-lik'
         />
         <Image
-          src='/images/partners/HSBC-Logo.png'
-          height={80}
+          src='/images/partners/db.png'
+          height={45}
           width={180}
           alt='directy'
         />
         <Image
-          src='/images/partners/db.png'
-          height={200}
+          src='/images/partners/HSBC-Logo.png'
+          height={80}
           width={180}
           alt='directy'
         />

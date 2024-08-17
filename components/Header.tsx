@@ -9,7 +9,7 @@ export default function Header() {
       <NavBar />
       <div className='header flex light-bg'>
         <div>
-          <button>Full Stack Developer || Quantitative Developer</button>
+          <button>Quantitative Developer & Full Stack Developer</button>
           <h1 className='white'>Talk is cheap.</h1>
           <h1 className='white'>Show me the code!</h1>
           <p className='gray'>
