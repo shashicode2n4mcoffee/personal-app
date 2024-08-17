@@ -7,16 +7,26 @@ export default function About() {
       <div className='flex'>
         <div className='flex-full'>
           <AboutCard
-            title='Frontend Technologies'
+            title='Quantitative Methods'
             icon='/icons/code.svg'
-            description=''
+            description='I develop cross-platform mobile applications.'
             images={[
-              'html.png',
-              'css.png',
-              'js.png',
-              'react-1.svg',
-              'redux.svg',
-              'angular.svg',
+              'Monte Carlo Simulations',
+              'Finite Difference Methods',
+              'Stochastic Processes',
+              'PDE Solvers.',
+            ]}
+          />
+          <AboutCard
+            title='Financial Instruments'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={[
+              'Derivatives',
+              'Forex',
+              'Fixed Income',
+              'Interest Rate Swaps',
+              'Equities',
             ]}
           />
           <AboutCard
@@ -24,31 +34,91 @@ export default function About() {
             icon='/icons/code.svg'
             description='I develop cross-platform mobile applications.'
             images={[
-              'nodejs-2.svg',
-              'java-4.svg',
-              'spring.svg',
-              'oracle-6.svg',
-              'postgresql.svg',
-              'mongodb-icon-1.svg',
+              'Java',
+              'Socket.IO',
+              'Spring Boot',
+              'Microservices',
+              'Hibernate',
+              'Spring Security',
+              'Spring Cloud',
+              'Spring Batch',
+              'Spring Data',
+              'NodeJs',
+              'Express',
+              'Sequelize',
+              'RestfulWeb service',
+              'Python',
+              'Flask',
+              'Cron Job',
             ]}
           />
+          <AboutCard
+            title='Market Data Exchange Connectivity'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={[
+              'FIX protocol',
+              'Summit',
+              'MarkitWire',
+              'OMS (Order ManagementSystem)',
+              'REST APIs',
+              'WebSockets',
+            ]}
+          />
+          <AboutCard
+            title='Frontend Technologies'
+            icon='/icons/code.svg'
+            description=''
+            images={['HTML', 'CSS', 'Javascript', 'React', 'Redux', 'Angular']}
+          />
+          <AboutCard
+            title='Low-Latency System Design'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={[
+              'Multi-threading',
+              'Parallel processing',
+              'High-throughput',
+              'Kernel bypass',
+              'Realtime data processing',
+            ]}
+          />
+          <AboutCard
+            title='Algorithmic Trading Strategy Development'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={[
+              'Quantitative analysis',
+              'High-frequency trading',
+              'Arbitrage strategies',
+              'Market making',
+              'Backtesting',
+            ]}
+          />
+          <AboutCard
+            title='Programming Languages'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={['C++', 'JavaScript', 'Core Java', 'Python']}
+          />
+
           <AboutCard
             title='DevOps Technologies'
             icon='/icons/code.svg'
             description='I develop cross-platform mobile applications.'
-            images={[
-              'jenkins.svg',
-              'docker.svg',
-              'git.svg',
-              'kubernets.svg',
-              'ansible.svg',
-            ]}
+            images={['Jenkins', 'Docker', 'Git', 'Kubernetes', 'Ansible']}
+          />
+          <AboutCard
+            title='Message Brokers & Cache'
+            icon='/icons/code.svg'
+            description='I develop cross-platform mobile applications.'
+            images={['Kafka', 'RabbitMQ', 'Redis']}
           />
           <AboutCard
             title='Cloud Technologies'
             icon='/icons/code.svg'
             description='I develop cross-platform mobile applications.'
-            images={['google-cloud-1.svg', 'aws-2.svg', 'azure.svg']}
+            images={['GCP', 'AWS', 'AZURE']}
           />
         </div>
         <div className='flex-full about-text'>
@@ -95,12 +165,16 @@ export default function About() {
             <p className='gray'>
               <hr />
               <p style={{ textAlign: 'left' }}>
-                I have proceeded my dream to be a developer as it has been my
-                lifelong ambition. I am a talented Full Stack developer. During
-                my 5 years of work in multiple top companies, I had the
-                opportunity to enhance my expertise by collaborating with
-                different clients and by creating useful content for both
-                business and customer use.
+                I have pursued my dream of becoming both a Quantitative
+                Developer and a Full Stack Developer, a lifelong ambition that
+                continues to drive my passion for technology and finance. Over
+                the past six years, I've had the privilege of working with top
+                companies, enhancing my expertise through collaboration with
+                diverse clients, and creating impactful solutions that serve
+                both business and customer needs. My journey has allowed me to
+                blend my skills in building low-latency, algorithmic trading
+                systems with my background in software development, making me
+                adept at handling complex challenges across different domains.
               </p>
               <br />
               <p style={{ textAlign: 'left' }}>
@@ -111,24 +185,75 @@ export default function About() {
               <hr />
             </p>
             <p className='gray' style={{ textAlign: 'left' }}>
-              As a highly skilled developer with extensive experience in
-              building web applications and microservices, I have a strong
-              command of a wide range of technologies, including Node.js, Spring
-              Boot, Java, PostgreSQL, Oracle, Express, Sequelize, Knex,
-              Hibernate, GCP, AWS, ReactJS, Redux, Angular, HTML, and CSS.
+              In the world of quantitative development, my focus is on
+              low-latency applications and high-frequency trading (HFT). I excel
+              at building ultra-fast trading systems designed for optimal speed
+              and precision. My expertise in C++ pricing libraries allows me to
+              develop advanced pricing models for derivatives, forex, and fixed
+              income instruments, capable of executing complex calculations in
+              real time. I am well-versed in quantitative finance techniques,
+              including Monte Carlo simulations, finite difference methods,
+              stochastic processes, and PDE solvers.
               <br />
-              With my proficiency in cloud computing platforms like GCP and AWS,
-              I can design and deploy applications that are highly available and
-              scalable. I am also adept at working with a variety of database
-              management systems, including PostgreSQL and Oracle, and can
-              design and implement efficient database schemas.
+              <hr style={{ border: '.5px dashed white' }} />
+              My experience extends to multi-threading, parallel processing,
+              kernel bypass, and real-time data processing, all of which are
+              crucial for high-throughput systems in HFT. I also have a strong
+              command of the FIX protocol, allowing me to facilitate seamless
+              communication between trading systems and various exchanges. I
+              design systems that handle real-time market data processing and
+              order execution with unparalleled efficiency, ensuring timely and
+              accurate trade decisions.
               <br />
-              Furthermore, I have extensive experience working with frontend
-              technologies like ReactJS, Redux, Angular, HTML, and CSS to build
-              intuitive and responsive user interfaces. I possess excellent
-              problem-solving skills and am constantly seeking new challenges to
-              improve my skills and stay current with the latest technological
-              developments.
+              <hr style={{ border: '.5px dashed white' }} />
+              Furthermore, I have extensive experience with Order Management
+              Systems (OMS), REST APIs, WebSockets, FPGA, and market
+              connectivity solutions like Summit and MarkitWire. I am adept at
+              integrating and normalizing market data from multiple exchanges,
+              enabling informed decision-making and execution of complex trading
+              strategies.
+              <br />
+              <hr style={{ border: '.5px dashed white' }} />
+              I am a highly skilled developer with extensive experience in
+              building web applications, microservices, and low-latency trading
+              systems. My expertise spans a broad range of technologies,
+              including Node.js, Spring Boot, Java, PostgreSQL, Oracle, Express,
+              Sequelize, Knex, Hibernate, and cloud platforms like GCP and AWS.
+              I excel at designing scalable, highly available applications with
+              cloud-native architectures, leveraging my proficiency in cloud
+              infrastructure to ensure optimal performance, fault tolerance, and
+              security.
+              <br />
+              <hr style={{ border: '.5px dashed white' }} />
+              On the back end, I am adept at database management, with deep
+              experience in PostgreSQL and Oracle. I design efficient schemas,
+              optimize queries, and utilize ORM libraries like Sequelize and
+              Knex to streamline data operations, ensuring smooth
+              application-to-database interaction. My technical acumen also
+              extends to front-end development, where I specialize in building
+              responsive, intuitive user interfaces using ReactJS, Redux,
+              Angular, HTML, and CSS. I deliver dynamic Single Page Applications
+              (SPAs) with seamless user experiences and optimized performance
+              across different devices.
+              <br />
+              <hr style={{ border: '.5px dashed white' }} />
+              Beyond trading systems, I am also a full-stack developer with a
+              deep understanding of high-level and low-level system design. I
+              architect scalable microservice architectures for web
+              applications, utilizing cloud infrastructure for distributed
+              computing. My ability to design systems that are modular,
+              efficient, and scalable ensures that businesses can grow without
+              compromising on performance.
+              <br />
+              <hr style={{ border: '.5px dashed white' }} />
+              My passion lies in pushing the boundaries of trading technology by
+              combining cutting-edge financial models with low-latency
+              execution. Whether I’m building a full-stack web application or
+              optimizing a C++ pricing engine, I bring a unique blend of
+              technical expertise and financial acumen that drives both
+              performance and profitability. Let's connect to explore how my
+              skills can elevate your trading and technology strategies.
+              <hr style={{ border: '.5px dashed white' }} />
             </p>
           </div>
         </div>
@@ -136,7 +261,7 @@ export default function About() {
 
       <div className='flex partners justify-space'>
         <Image
-          src='/images/partners/wipro1.svg'
+          src='/images/partners/wipro.svg'
           height={45}
           width={180}
           alt='wallety'
@@ -155,7 +280,13 @@ export default function About() {
         />
         <Image
           src='/images/partners/db.png'
-          height={45}
+          height={200}
+          width={180}
+          alt='directy'
+        />
+        <Image
+          src='/images/partners/HSBC-Logo.png'
+          height={80}
           width={180}
           alt='directy'
         />
@@ -178,15 +309,19 @@ function AboutCard({ title, icon, images }: Props) {
         <h3 className='green'>{title}</h3>
         <Image src={icon} width={28} height={28} alt={title} />
       </div>
-      <div className='flex partners justify-space'>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          padding: '1rem 0',
+        }}
+      >
         {images?.map((item, index) => (
-          <Image
-            src={`/images/skill/${item}`}
-            height={50}
-            width={50}
-            alt='wallety'
-            key={index}
-          />
+          <span className='skill-item' style={{ color: 'white' }} key={index}>
+            {item}
+          </span>
         ))}
       </div>
     </div>
